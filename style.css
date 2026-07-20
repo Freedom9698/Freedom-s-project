@@ -133,7 +133,7 @@ color: black;
 background-color: lightyellow;
 } */
 
-
+/* 
 .container3{
     display: flex;
     justify-content: center;
@@ -165,4 +165,57 @@ background-color: lightyellow;
 
 .task3 h1{
     color: black;
+} */
+
+.container4{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
 }
+
+.task4{
+    display: flex;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    width: 1200px;
+    padding: 5px;
+}
+
+
+.img3{
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.michelle{
+    border: none;
+    border-radius: 100px;
+    width: 100px;
+}
+
+
+.task6 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.task6 h2 {
+    margin: 0;
+}
+
+
+.task5 h1{
+    color:rgb(80, 71, 141);
+}
+
+.task5 h2{
+    color: rgb(57, 92, 92);
+}
+
+
