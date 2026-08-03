@@ -1,7 +1,7 @@
 body{
-    background-color: white;
+    background-color: rgb(145, 188, 238);
 }
-
+/* 
 .container1{
     padding: 20px;
     display: flex;
@@ -131,4 +131,89 @@ body{
 .h2v6{
   color: rgb(83, 84, 85);    
 } 
+ */
 
+
+.main1{
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+
+}
+
+.task8{
+    width: 450px;
+    padding: 10px;
+    background-color: rgb(224, 223, 223);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    height: 600px;
+    gap: 20px;
+}
+
+.imgv1{
+    border-radius: 10px;
+}
+
+.task9{
+    display: flex;
+    width: 400px;
+    gap: 15px;
+    background-color: rgb(216, 215, 215);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 80px;
+}
+
+.img1{
+  height: 50px;
+  
+}
+
+
+.task9 button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(216, 215, 215);
+    color: blue;
+  
+}
+
+.task11{
+    gap: 20px;
+}
+
+.btn1{
+ color: white;
+ background-color: rgb(25, 0, 255);
+ border-radius: 10px;
+ border: none;
+ width: 150px;
+ height: 50px;
+}
+
+.btn2{
+    color: rgb(78, 78, 78);
+    border: none;
+    background-color: rgb(224, 223, 223);
+    gap: 40px;
+}
+
+.buttons{
+    width: 150px;
+    gap: 50px;
+    margin-left: 150px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
