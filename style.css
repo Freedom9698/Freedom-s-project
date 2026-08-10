@@ -1,219 +1,114 @@
 body{
-    background-color: rgb(145, 188, 238);
+    background-color: white;
 }
-/* 
-.container1{
-    padding: 20px;
+
+.task2{
     display: flex;
-    justify-content: center;
-    height: 10000px;
+    gap: 20px;
 }
 
-.main{
+.task2 button{
     border: none;
-    width: 700px;
-}
-
-.task1{
-    text-align: center;
-}
-
-.h1v1{
-    color: rgb(46, 46, 46);
-}
-
-.h2v1{
-    color: rgb(83, 84, 85);
-}
-
-.btn1{
-    border: none;
-    color: white;
-    background-color: rgba(5, 129, 71, 0.753);
-    border-radius: 15px;
-    width: 150px;
-    height: 40px;
-}
-
-.btn2{
-        border: none;
-    color: white;
-    background-color: rgba(64, 102, 228, 0.753);
-    border-radius: 15px;
-    width: 150px;
-    height: 40px;
-}
-
-
-.h1v2{
-        color: rgb(46, 46, 46);
-}
-
-.h1v3{
-        color: rgb(46, 46, 46);
-}
-
-.h1v4{
-        color: rgb(46, 46, 46);
-}
-
-.h1v5{
-        color: rgb(46, 46, 46);
-}
-
-.h2v2{
-        color: rgb(83, 84, 85);
-}
-
-.h2v3{
-        color: rgb(83, 84, 85);
-}
-
-.h2v4{
-        color: rgb(83, 84, 85);
-}
-
-.h1v6{
-        color: rgb(46, 46, 46);
-}
-
-.h2v5{
-            color: rgb(83, 84, 85);
+    background-color: white;
 }
 
 .task3{
+    margin-left: 1100px;
+    margin-top: 10px;
+    
+}
+
+.button1{
     border: none;
+    background-color: white;
+    height: 30px;
+    font-size: 20px;
 }
 
-.task4{
-    text-align: center;
-}
-
-
-.task5{
-    display: flex;
-}
-
-
-
-.task6 img{
-        width: 50px;
-    height: 35px;
-}
-
-.task6{
-    display: flex;
-    gap: 175px;
-    align-items: center;
-    text-align: center;
-}
-
-.task6 img{
-  width: 60px;
-  height: 45px;
-  margin-bottom: 20px;
-  margin-left: 70px;
-}
-
-.task7{
-    display: flex;
-    gap: 100px;
-    color: rgb(46, 46, 46); 
-    width: 1000px;
-
-
-}
-
-.h1v7{
-  color: rgb(46, 46, 46); 
-}
-
-.h2v6{
-  color: rgb(83, 84, 85);    
-} 
- */
-
-
-.main1{
+.button2{
+    background-color: white;
     border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 90vh;
-
-}
-
-.task8{
-    width: 450px;
+    border-color: rgb(13, 13, 14);
+    font-size: 20px;
     padding: 10px;
-    background-color: rgb(224, 223, 223);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    height: 600px;
-    gap: 20px;
 }
 
-.imgv1{
-    border-radius: 10px;
-}
-
-.task9{
-    display: flex;
-    width: 400px;
-    gap: 15px;
-    background-color: rgb(216, 215, 215);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    height: 80px;
-}
 
 .img1{
-  height: 50px;
-  
+    width: 15px;
+    height: 10px;
+    margin-top: 25px;
+    margin-right: 20px;
 }
 
-
-.task9 button{
-    width: 200px;
-    height: 50px;
-    border: none;
-    background-color: rgb(216, 215, 215);
-    color: blue;
-  
+.img2{
+        width: 15px;
+    height: 10px;
+    margin-top: 25px;
+    margin-right: 20px;
 }
 
-.task11{
-    gap: 20px;
+.button5{
+    margin-left: 20px;
 }
 
-.btn1{
- color: white;
- background-color: rgb(25, 0, 255);
- border-radius: 10px;
- border: none;
- width: 150px;
- height: 50px;
+.button6{
+    margin-left: 40px;
 }
 
-.btn2{
-    color: rgb(78, 78, 78);
-    border: none;
-    background-color: rgb(224, 223, 223);
-    gap: 40px;
+.img3{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
 }
 
-.buttons{
-    width: 150px;
-    gap: 50px;
-    margin-left: 150px;
-    margin-top: 30px;
+.mmd{
+    display: flex;
+     width: 1200px;
+    height: none;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    margin-left: 450px;
+    height: 80vh;
+}
+
+.img4{
+    width: 450px;
+    height: 600px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.h1v1{
+    font-size: 70px;
+    width: 400px;
+}
+
+.button7{
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+   
+}
+
+.img5{
+ display: flex;
+ gap: 20px;
+justify-content: center;
+margin-top: 30px;
+
+}
+
+.img6{
+  width: 100px;
+  height: 30px;
+}
+
+.img7{
+    width: 100px;
+    height: 50px;
 }
