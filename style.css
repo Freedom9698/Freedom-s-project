@@ -1,231 +1,322 @@
 body{
-    background-color: white;
-}
-
-.task2{
-    display: flex;
-    gap: 20px;
-}
-
-.task2 button{
-    border: none;
-    background-color: white;
-}
-
-.task3{
-    margin-left: 1100px;
-    margin-top: 10px;
-    
-}
-
-.button1{
-    border: none;
-    background-color: white;
-    height: 30px;
-    font-size: 20px;
-}
-
-.button2{
-    background-color: white;
-    border-radius: 10px;
-    border-color: rgb(13, 13, 14);
-    font-size: 20px;
-    padding: 10px;
-}
-
-
-.img1{
-    width: 15px;
-    height: 10px;
-    margin-top: 25px;
-    margin-right: 20px;
-}
-
-.img2{
-        width: 15px;
-    height: 10px;
-    margin-top: 25px;
-    margin-right: 20px;
-}
-
-.button5{
-    margin-left: 20px;
-}
-
-.button6{
-    margin-left: 40px;
-}
-
-.img3{
-    width: 100px;
-    height: 40px;
-    margin-top: 10px;
-}
-
-.mmd{
-    display: flex;
-     width: 1200px;
-    height: none;
+    background-color: hsl(226, 43%, 10%);
     justify-content: center;
+    display: flex;
     align-items: center;
-    margin-left: 450px;
-    height: 80vh;
+    height: 90vh;
 }
 
-.img4{
-    width: 450px;
-    height: 600px;
-    margin-left: 200px;
-    margin-top: 150px;
-}
 
-.h1v1{
-    font-size: 70px;
-    width: 400px;
-}
 
-.button7{
+.tag{
+    width: 180px;
     border: none;
-    color: white;
-    background-color: black;
-    font-size: 30px;
-    border-radius: 15px;
-    width: 200px;
-    height: 50px;
+    border-radius: 10px;
+    background-color: hsl(246, 80%, 60%);
+    height: 280px;
+    padding: 20px;
    
 }
 
-.img5{
- display: flex;
- gap: 20px;
-justify-content: center;
-margin-top: 30px;
+.tag img{
+    width: 70px;
+    border-radius: 50% ;
+   border: 3px solid white;
+    
+}
+.p3{
+   color: white;
+   font-weight: bold;
+}
+.p1{
+    color: rgb(161, 161, 161);
+}
+.shvili{
+    width: 180px;
+    border: none;
+   background-color: hsl(235, 46%, 20%);
+   height:120px ;
+   padding: 20px;
+   border-radius: 10px;
+   
+}
+.h2{
+    color: hsl(236, 100%, 87%);
+    font-size:35px ;
+    
+}
+.pw{
+    color: hsl(236, 100%, 87%);
+    font-size: 40px;
+}
+.shvili p{
+    font-size: 18px;
+}
+.p2{
+    color: rgb(161, 161, 161);
+}
+
+.shvili1{
+    background-color: hsl(15, 100%, 70%);
+    width: 190px;
+    height: 55px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+}
+.container{
+    display: flex;
+}
+.img1{
+    width: 40px;
+    padding: 5px;
+    margin-left: 115px;
+}
+
+.dedadivi1{
+    display: flex;
+    gap: 15px;
+
+
+}
+.box1{
+    background-color:hsl(235, 46%, 20%);
+    height: 150px;
+    width: 160px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.div1{
+    display: flex;
+    text-align: center;
+    
+}
+.div1 img{
+    height: 5px;
+    margin-left: 75px;
+    margin-bottom: 5px;
+}
+.div1 p{
+    color: white;
+    font-weight: bolder;
+
+}
+.box1 h1{
+    color: white;
+    font-weight: lighter;
+}
+.box1 p{
+    color: rgb(161, 161, 161) ;
 
 }
 
-.img6{
-  width: 100px;
-  height: 30px;
+.h1{
+    font-size: 30px;
+}
+.shvili2{
+    background-color:hsl(195, 74%, 62%);
+    width: 190px;
+    height: 55px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
 }
 
-.img7{
-    width: 100px;
-    height: 50px;
+.shvili3{
+    background-color:hsl(348, 100%, 68%);
+    width: 190px;
+    height: 55px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
 }
+.shvili4{
+    background-color:hsl(145, 58%, 55%);
+    width: 190px;
+    height: 55px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+}
+
+.grid{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,1fr);
+}
+.shvili5{
+    background-color:hsl(264, 64%, 52%);
+   width: 190px;
+    height: 55px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+}
+.img2{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 120px;
+}
+.shvili6{
+    background-color:hsl(43, 84%, 65%);
+   width: 190px;
+    height: 55px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+}
+.img1{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 120px;
+}
+.div2 p{
+    font-size: 20px;
+
+}
+
+
+
 
 
 @media (max-width: 600px) {
 
-    .task2 {
-        display: flex;
-        gap: 10px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .task2 button {
-        border: none;
-        background-color: white;
-        font-size: 14px;
-    }
-
-    .task3 {
-        margin-left: 0;
-        margin-top: 10px;
+    .tag {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin: 0 auto;
         text-align: center;
     }
 
-    .button1 {
-        border: none;
-        background-color: white;
-        height: 30px;
-        font-size: 16px;
+    .tag img {
+        width: 60px;
+        border-radius: 50%;
+        border: 3px solid white;
     }
 
-    .button2 {
-        background-color: white;
-        border-radius: 10px;
-        border-color: rgb(13, 13, 14);
-        font-size: 16px;
-        padding: 8px;
-    }
-
-    .img1 {
-        width: 15px;
-        height: 10px;
-        margin-top: 15px;
-        margin-right: 10px;
-    }
-
-    .img2 {
-        width: 15px;
-        height: 10px;
-        margin-top: 15px;
-        margin-right: 10px;
-    }
-
-    .button5 {
-        margin-left: 10px;
-    }
-
-    .button6 {
-        margin-left: 10px;
-    }
-
-    .img3 {
-        width: 80px;
-        height: 35px;
-        margin-top: 10px;
-    }
-
-    .mmd {
-        display: flex;
-        width: 100%;
-        height: auto;
-        justify-content: center;
-        align-items: center;
-        margin-left: 0;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .img4 {
-        width: 250px;
-        height: auto;
-        margin-left: 0;
-        margin-top: 30px;
-    }
-
-    .h1v1 {
-        font-size: 40px;
-        width: 100%;
-    }
-
-    .button7 {
-        border: none;
+    .p3 {
         color: white;
-        background-color: black;
-        font-size: 20px;
-        border-radius: 15px;
-        width: 160px;
-        height: 45px;
+        font-weight: bold;
     }
 
-    .img5 {
+    .p1 {
+        color: rgb(161, 161, 161);
+    }
+
+    .shvili {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    .h2 {
+        font-size: 28px;
+    }
+
+    .pw {
+        font-size: 32px;
+    }
+
+    .shvili p {
+        font-size: 16px;
+    }
+
+    .p2 {
+        color: rgb(161, 161, 161);
+    }
+
+    .container {
         display: flex;
-        gap: 10px;
-        justify-content: center;
-        margin-top: 20px;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
-    .img6 {
-        width: 80px;
-        height: 25px;
+    .shvili1,
+    .shvili2,
+    .shvili3,
+    .shvili4,
+    .shvili5,
+    .shvili6 {
+        width: 90%;
+        height: 55px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
     }
 
-    .img7 {
-        width: 80px;
-        height: 40px;
+    .img1,
+    .img2 {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+
+    .dedadivi1 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .box1 {
+        width: 85%;
+        height: auto;
+        min-height: 130px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .div1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .div1 img {
+        height: 5px;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    .div1 p {
+        color: white;
+        font-weight: bolder;
+    }
+
+    .box1 h1 {
+        color: white;
+        font-weight: lighter;
+    }
+
+    .box1 p {
+        color: rgb(161, 161, 161);
+    }
+
+    .h1 {
+        font-size: 26px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .div2 p {
+        font-size: 18px;
     }
 }
+
+
+
+
+
