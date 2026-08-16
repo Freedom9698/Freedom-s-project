@@ -331,9 +331,10 @@ body{
     .grid {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 15px;
+        gap: 200px;
         width: 100%;
         justify-items: center;
+
     }
 
     .div2 p {
