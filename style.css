@@ -1,207 +1,433 @@
 body {
-    background-color: #141414;
-    color: white;
-    min-height: 100vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: hsl(0, 0%, 95%);
 }
 
-/* .box3{
-    width: 30px;
-    height: 30px;
-    background-color: blue;
-} */
 
-/* .box{
-    background-color: blue;
-    width: 30px;
-    height: 30px;
-} */
-
-/* .hide{
-    display: none;
-} */
-
-/* .active{
-    background-color: blue;
-    width: 30px;
-    height: 30px;
-} */
-
-/* .red{
-
-    background-color: rgb(255, 0, 0);
-}  */
-
-/* .red{
-    background-color: red;
-}
-
-.blue{
-    background-color: blue;
-} */
-
-/* .hidden{
-    background-color: blue;
-    
-} */
-
-/* .box{
-    background-color: blue;
-} */
-
-/* div{
-    width: 30px;
-    height: 30px;
-    background-color: blue;
-}
-
-.box{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(255, 0, 0);
-}
- */
-
-
-/* .red{
-    background-color: red;
-} */
-
-/* .circle{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: red;
-}
-
-div{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-} */
-
-/* .hide{
-    display: none;
-} */
-
-/* .dark{
-    background-color: black;
-} */
-
-/* .border{
-    border-radius: 10px;
-} */
-
-/* div{
+ .boxi{
     width: 50px;
     height: 50px;
-    background-color: black;
-}
-
-.red{
-    background-color: red;
-
-} */
-
-/* .red{
-    color: red;
-} */
-
-/* .red{
-    width: 30px;
-    height: 30px;
-    background-color: red;
-}
-
-.black{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(2, 2, 2);
-}
-
-.blue{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(0, 26, 255);
-} */
-
-
-/* let array = ["nika", "gio", "lasha", "irakli", "luka"] */
-
- 
-
-
-
-
-.div1{
-    height: 700px;
-    width: 400px;
-    background-color: hsl(0, 0%, 12%);
-    padding: 20px;
-    justify-content: center;
-    border-radius: 20px;
-    display: flex;
-    
-}
-
-
-img{
-    border-radius: 50%;
-}
-
-.h1v1{
-    color:  hsl(0, 0%, 100%);
-    margin-left: 5px;
-}
-
-.h3v1{
-    color: hsl(75, 94%, 57%); 
-    margin-left: 10px;
-}
-
-.lili{
-  list-style: none;
-  margin-right: 25px;
-}
-
-.avatart{
-    
-}
-
-.wtvs{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.wtv button{
-   width: 300px;
-   height: 45px;
-   border: none;
-   background-color: hsl(0, 0%, 25%);
-   color: white;
-   border-radius: 15px;
-   margin-top: 15px;
-
-}
-
-.wtv{
-    gap: 20px;
-}
-
-.avatar{
-    margin-left: 45px;
-}
-
-.img1{
-    margin-left: 20px;
-}
-
-
-.hide{
-    display: none;
+    border-radius: 5px;
+    background-color: rgb(250, 1, 217);
+    animation: move 3s infinite alternate;
 } 
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(300px);
+    }
+}
+
+ .boxi1{
+    width: 50px;
+    height: 50px;
+    margin-left: 500px;
+    border-radius: 5px;
+    background-color: rgb(250, 1, 217);
+    animation: rotate 3s infinite linear;
+} 
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+ .boxi2{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 500px;
+    border-radius: 50%;
+    background-color: rgb(250, 1, 217);
+    animation: grow 2s infinite alternate;
+} 
+
+@keyframes grow{
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(2);
+  }
+}
+
+
+
+ .boxi3{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 500px;
+    border-radius: 50%;
+    background-color: rgb(250, 1, 217);
+    animation: blink 2s infinite alternate;
+} 
+
+@keyframes blink{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
+
+ .boxi4{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 500px;
+    border-radius: 50%;
+    background-color: rgb(250, 1, 217);
+    animation: colors 4s infinite;
+} 
+
+@keyframes colors{
+    0%{
+        background-color: rgb(38, 0, 255);
+    }
+    25%{
+        background-color: rgb(0, 162, 255);
+    }
+    50%{
+        background-color: rgb(0, 26, 255);
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+
+.boxi5 {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 160px;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-150px);
+    }
+}
+
+.boxi7 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 160px;
+    animation: move 3s infinite alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(300px);
+    }
+}
+
+.boxi8 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 100px;
+    margin-top: 160px;
+    animation: grow 3s infinite alternate;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2);
+    }
+}
+
+.boxi9 {
+    width: 100px;
+    height: 100px;
+    border: 5px solid blue;
+    border-top-color: red;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 160px;
+    animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.boxi10 {
+    margin-left: 100px;
+    margin-top: 160px;
+    animation: disappear 2s infinite alternate;
+}
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.boxi11 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-left: 100px;
+    margin-top: 160px;
+    animation: rotatecolor 3s infinite linear;
+}
+
+@keyframes rotatecolor {
+    0% {
+        transform: rotate(0deg);
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: red;
+    }
+}
+
+.boxi12 {
+    font-size: 70px;
+    margin-top: 100px;
+    animation: cloud 6s infinite alternate linear;
+}
+
+@keyframes cloud {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(500px);
+    }
+}
+
+.boxi13 {
+    font-size: 100px;
+    width: fit-content;
+    margin-left: 200px;
+    margin-top: 100px;
+    animation: sun 5s infinite linear;
+}
+
+@keyframes sun {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.boxi14 {
+    width: 70px;
+    height: 70px;
+    background-color: purple;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 160px;
+    animation: dance 1s infinite alternate;
+}
+
+@keyframes dance {
+    from {
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-120px) scale(1.2);
+    }
+}
+
+.boxi15 {
+    margin-top: 160px;
+    animation: welcome 3s forwards;
+}
+
+@keyframes welcome {
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.boxi16 {
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.boxi16:hover {
+    background-color: red;
+    transform: scale(1.2);
+    box-shadow: 0 5px 20px gray;
+}
+
+.boxi17 {
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    transition: transform 1s;
+}
+
+.boxi17:hover {
+    transform: rotateY(180deg);
+}
+
+.boxi17 {
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    transition: transform 1s;
+}
+
+.boxi17:hover {
+    transform: rotateY(180deg);
+}
+
+.boxi18 {
+    font-size: 80px;
+    width: fit-content;
+    margin: 100px;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.3);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.boxi19a, .boxi19b, .boxi19c {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 30px;
+    display: inline-block;
+}
+
+.boxi19a {
+    background-color: red;
+    animation: ball1 1s infinite alternate;
+}
+
+.boxi19b {
+    background-color: blue;
+    animation: ball1 2s infinite alternate;
+}
+
+.boxi19c {
+    background-color: green;
+    animation: ball1 1.5s infinite alternate;
+}
+
+@keyframes ball1 {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100px);
+    }
+}
+
+
+.loading {
+    display: flex;
+    gap: 10px;
+    margin: 100px;
+    align-items: center;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    animation: loading 0.8s infinite alternate;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes loading {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.8);
+    }
+}
