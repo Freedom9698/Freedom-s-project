@@ -3131,3 +3131,63 @@
 // 200. მასივში მეორე უდიდესი რიცხვი
 // მოცემულია მასივი [12, 45, 78, 23, 90, 56]. იპოვეთ მეორე უდიდესი განსხვავებული რიცხვი.
 
+// const button1 = document.querySelector(".button1")
+
+// button1.addEventListener("click",function(){
+//     let randomColor = Math.floor(Math.random() * 16777215).toString(16)
+//     document.body.style.backgroundColor = "#" + randomColor;
+// })
+
+// const button2 = document.querySelector(".button2")
+
+// button2.addEventListener("click",function(){
+//     let randomColor = Math.floor(Math.random() * 16777215).toString(16)
+//     document.body.style.backgroundColor = "#" + randomColor;
+// })
+
+// const button3 = document.querySelector(".button3")
+
+// button3.addEventListener("click",function(){
+//     let randomColor = Math.floor(Math.random() * 16777215).toString(16)
+//     document.body.style.backgroundColor = "#" + randomColor;
+// })
+
+// const button4 = document.querySelector(".button4")
+
+// button4.addEventListener("click",function(){
+//     let randomColor = Math.floor(Math.random() * 16777215).toString(16)
+//     document.body.style.backgroundColor = "#" + randomColor;
+// })
+
+// const button5 = document.querySelector(".button5")
+
+// button5.addEventListener("click",function(){
+//     let randomColor = Math.floor(Math.random() * 16777215).toString(16)
+//     document.body.style.backgroundColor = "#" + randomColor;
+// })
+
+
+const display = document.getElementById("display");
+
+function appendTodisplay(input){
+    display.value += input
+}
+
+function deleteLast() {
+    display.value = display.value.slice(0, -1);
+}
+
+function clearDisplay(){
+    display.value = "";
+}
+
+function calculate(){
+    try{
+        display.value = eval(display.value);
+    }catch(error){
+        display.value = "error"
+    }
+}
+
+
+
